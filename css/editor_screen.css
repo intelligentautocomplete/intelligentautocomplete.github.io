@@ -1,0 +1,74 @@
+/*#mainContainer {*/
+  /*position: relative;*/
+  /*display: block;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*float: left;*/
+/*}*/
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 8px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#editorContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 33vw;
+}
+
+#editor {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#outputContainer {
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 50vh;
+  width: 67vw;
+  border: 0;
+}
+
+#outputFrame {
+  position: relative;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+#interactContainer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 50vh;
+  width: 67vw;
+  border: 0;
+  background-color: #eee;
+  overflow:auto;
+}
+
+#table1 #table2 {
+	border: 3px solid #ddd;
+	text-align: left;
+	padding: 8px;
+}
+#myInput {
+	float:left;
+	position: relative;
+	left: 50%;
+}
